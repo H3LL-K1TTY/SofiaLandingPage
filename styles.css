@@ -1,0 +1,107 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh; /* Adjusted to viewport height */
+    overflow: hidden; /* Prevent scrolling */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Profile Container Styling */
+.profile-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+/* Name Styling */
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; /* No space around name */
+}
+
+/* Handle Styling */
+.handle {
+    font-size: 18px;
+    margin-top: 5px;    /* Space above @handle */
+    margin-bottom: 3px; /* Space below @handle */
+    color: #f1f1f1;
+}
+
+/* Status Styling */
+.status {
+    font-size: 16px;
+    margin-top: 20px;   /* Space above status line */
+    margin-bottom: 10px; /* Space below status line */
+}
+
+/* Location Styling */
+.location {
+    font-size: 16px;
+    margin-top: 10px;   /* Space above location */
+    margin-bottom: 10px; /* Space below location */
+}
+
+/* Availability Styling */
+.availability {
+    font-size: 16px;
+    margin-top: 40px;   /* Space above availability */
+    margin-bottom: 30px; /* Space below availability */
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styling for Indicators */
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.location-icon {
+    margin-right: 5px;
+    vertical-align: middle;
+}
